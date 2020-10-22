@@ -38,7 +38,7 @@ jobs:
                  
        - name: ACCESS 10001001100
          run: |
-           git clone --recurse-submodules ${{ secrets.TOPSECRET }} ErfanGSIs
+           git clone --recurse-submodules https://github.com/JamieHoSzeYui/ErfanGSIs
            sudo chmod -R 777 ErfanGSIs
            cd ErfanGSIs
            sudo bash setup.sh 
