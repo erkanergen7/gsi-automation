@@ -9,7 +9,7 @@ on:
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: http://otafsc-cost.h2os.com/OnePlus8_CH/OnePlus8Hydrogen_15.H.30_0300_2010052347/patch/CHN/OnePlus8Hydrogen/OnePlus8Hydrogen_15.H.30_0300_2010052347/OnePlus8Hydrogen_15.H.30_OTA_0300_all_2010052347_2bd4a244b95cc7.zip
-  ROM_NAME: HydrogenOS
+  ROM_NAME: OxygenOS
   ZIP_NAME: HydrogenOS-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
