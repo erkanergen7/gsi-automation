@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mva1.androidfilehost.com/dl/Q2su3SaDr2TWrM0AMn6NGg/1603500158/10763459528675569607/MMX_2.2.0_lavender_20.10.22_v12-10.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MiuiMiX 20.10.22
+  ROM_URL: https://mva1.androidfilehost.com/dl/-YZVLEoYH7hubb1WWdotxw/1603497878/10763459528675567017/AOSiP-10-Quiche-lavender-20201018.zip
+  ROM_NAME: Aosip
+  ZIP_NAME: Aosip-19/10/20
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
