@@ -39,9 +39,12 @@ jobs:
        - name: Downloading Erfan Repo
          run: |
            git clone --recurse-submodules https://github.com/berkays07333/sucukluuuuu
-           sudo chmod -R 777 ErfanGSIs
-           cd ErfanGSIs
-           sudo bash setup.sh 
+       
+       - name: Setting up ErfanGSI requirements
+         run: |
+              sudo chmod -R 777 ErfanGSIs
+              cd ErfanGSIs
+              sudo bash setup.sh
 
 
        - name: Downloading Rom
