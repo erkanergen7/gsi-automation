@@ -8,7 +8,7 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH2015/CPH2015EUEX_11_OTA_0400_all_udVdU8UqDAdZ.ozip
+  ROM_URL: https://mva1.androidfilehost.com/dl/Q2su3SaDr2TWrM0AMn6NGg/1603500158/10763459528675569607/MMX_2.2.0_lavender_20.10.22_v12-10.zip
   ROM_NAME: MIUI
   ZIP_NAME: MiuiMiX 20.10.22
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
