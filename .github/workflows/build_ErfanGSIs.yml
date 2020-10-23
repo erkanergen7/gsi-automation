@@ -8,7 +8,7 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://get.mirror1.arrowos.net/download.php?token=BvYKRAVkNawxLo5QmP6TJ94sEniyDGOWdqUF2SpH38ZlegjrIMzhctC71uXf&version=arrow-11.0&variant=community&device=lavender
+  ROM_URL: https://get.mirror2.arrowos.net/download.php?token=BvYKRAVkNawxLo5QmP6TJ94sEniyDGOWdqUF2SpH38ZlegjrIMzhctC71uXf&version=arrow-11.0&variant=community&device=lavender
   ROM_NAME: Generic
   ZIP_NAME: ArrowOS-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
