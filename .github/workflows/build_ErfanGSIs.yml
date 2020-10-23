@@ -37,8 +37,7 @@ jobs:
             
                  
        - name: Downloading Erfan Repo
-         run: |
-           git clone --recurse-submodules https://github.com/berkays07333/sucukluuuuu  ErfanGSIs
+         run: git clone https://${{ secrets.EMAIL }}":${{ secrets.GITTOKEN }}"@github.com/berkays07333/sucukluuuuu  ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
