@@ -1,4 +1,4 @@
-name: TIME TO BAKE......
+name: Build Starting..
 
 on: 
   #releasepush:
@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://get.mirror2.arrowos.net/download.php?token=BvYKRAVkNawxLo5QmP6TJ94sEniyDGOWdqUF2SpH38ZlegjrIMzhctC71uXf&version=arrow-11.0&variant=community&device=lavender
+  ROM_URL: http://arix.postaw.se/davinci/legion/LegionOS-v3.2-davinci-20201016-Unofficial-Vanilla.zip
   ROM_NAME: Generic
-  ZIP_NAME: ArrowOS-23-10-2020
+  ZIP_NAME: LegionOS-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ArrowOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/ArrowOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/LegionOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/LegionOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
          uses: actions/checkout@main
        
            
-       - name: Setting up the SPICES
+       - name: Configuring settings
          run: |
             sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
@@ -36,25 +36,25 @@ jobs:
             sudo apt-get install -y expect
             
                  
-       - name: ACCESS 10001001100
+       - name: Downloading Erfan Repo
          run: |
            git clone --recurse-submodules https://github.com/JamieHoSzeYui/ErfanGSIs
            sudo chmod -R 777 ErfanGSIs
            cd ErfanGSIs
            sudo bash setup.sh 
        
-       - name: DOWNLOADING THE FIRMWARE
+       - name: Downloading Rom
          run: cd ErfanGSIs && sudo ./url2GSI.sh $ROM_URL $ROM_NAME 
      
                        
-       - name: Zipping BOTH COOKIES
+       - name: Zipping..
          run: |
               mkdir final
               sudo chmod -R 777 ErfanGSIs/output
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-Aonly.7z ErfanGSIs/output/*-Aonly-*.img 
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
               
-       - name: uploading to HELIOSBAKERY
+       - name: Uploading SourceForge
          run: |   
               cd ErfanGSIs/output
               expect -c " 
