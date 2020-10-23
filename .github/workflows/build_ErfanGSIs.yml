@@ -38,11 +38,12 @@ jobs:
                  
        - name: Downloading Erfan Repo
          run: |
-          run: git clone https://${{ secrets.EMAIL }}":${{ secrets.GITTOKEN }}"@github.com/berkays0733/Gsi-Dosyalar.git
+           git clone --recurse-submodules https://github.com/berkays07333/sucukluuuuu
            sudo chmod -R 777 ErfanGSIs
            cd ErfanGSIs
            sudo bash setup.sh 
-       
+
+
        - name: Downloading Rom
          run: cd ErfanGSIs && sudo ./url2GSI.sh $ROM_URL $ROM_NAME 
      
