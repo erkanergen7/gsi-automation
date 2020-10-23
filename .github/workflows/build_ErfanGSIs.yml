@@ -10,11 +10,11 @@ on:
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://mva1.androidfilehost.com/dl/-YZVLEoYH7hubb1WWdotxw/1603497878/10763459528675567017/AOSiP-10-Quiche-lavender-20201018.zip
   ROM_NAME: Generic
-  ZIP_NAME: Aosip-19/10/20
+  ZIP_NAME: Aosip-19-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Aosip
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/Aosip
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
