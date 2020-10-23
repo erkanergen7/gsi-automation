@@ -9,7 +9,7 @@ on:
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://mva1.androidfilehost.com/dl/-YZVLEoYH7hubb1WWdotxw/1603497878/10763459528675567017/AOSiP-10-Quiche-lavender-20201018.zip
-  ROM_NAME: Aosip
+  ROM_NAME: Generic
   ZIP_NAME: Aosip-19/10/20
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
