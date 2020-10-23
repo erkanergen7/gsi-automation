@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://public.bn.files.1drv.com/y4mZRy6rACzFQwiJes84mq_MP7Mjvx9A3DqtBCc61CsU6KZKEwUKRhUE7ZJwjAXTrRhKanxg6hCZcpwIMif2GJQ8Ced-Elj-dq84oj1OxlJwjBUjzhC0DorLQn2bXeNhakL3MxbEp_oi9eehC4KvxgWzfCg29lja7eq3uRVdod9c1VH4E6EKiD9MfjmejbS0r-JR6T2c7W1eG76vnChI0NCNlt_19386ZIYXbGYnlYV64I?access_token=EwD4Aq1DBAAUzl/nWKUlBg14ZGcybuC4/OHFdfEAAQuJ7QtlnAfb3a2YaPvoF1hdurhGqRuola3U/uvF7BOv%2bB5qyKnR6SHonUv2TqtjartNRYAXwJazvl961SUf5fDaNhhe/SbxcuIdlykGtV5Y7k5yjBSBIrSXgExahGWw53%2bJmQ8BeEqoVyUKKZneUj81JS8OjzqK2VAm1QNqmkXT9Z8b%2boqNx187CkRt1h3h/lBtgQE7mV0QNtP2e%2bhlio0s0C9XVSbVjBUggwgsJd%2bJBj6hylUxt95xTZqNDO%2bApIMlT2FHkH3Jk38MVni4Ygqezvkxl64XVH3kxWRrLxH%2bbowDV1Q2sprf34OiCfhuyJC/PE40A0ydtgpnuibthUUDZgAACMGmopQKK83zyAHgudMii2BFtxTLifog4Afu8TSRVe1wKP%2bwLnToAh6CXv0YinyYW%2bydvYyBBnet879kyhwYPRile6adY3hgo83qKPFWneouFnqqOZGcfoQw0CLdZLKny6yLJrm9Cee1QcDkd5v99l28QhbP5OI3M70SnVa0ZQPmih7KOEvNM00V/Bk93jLJ4EiJjj%2bazGPPEdtLYolBYBOThie50aMVpjooPivcfVkUEi/fUUdywEzQCQXabFypgWvHIU%2b3Z5VjPVIyHWoLYI2xJrUil6NXnK2foUpLGHdmDpkRb/I3It9M501qkzEwZV0LN8h28yFcB0KnevibU%2bjwkgXOsPfn/deFMQ8nBfJtwjlypI/%2b7teVg78LIhH3JIZkoH8/0kiOXqchlG67cJIofphImpId%2bgt8d2m9hIs4/VJZUZ/dqe9hYDHy1Iixo1UT9q6uOV9dKarx63Z2dnzi/isIkT0hXarVPd/3hpBjTWAzeEcnhllHUstaMr71%2bcs1sXL9XpKuJTKIsrNk4HtVWqA7ELgX55SEuE7OX/Rbli6hLvJcx2u8/nlLd3hAVcziQZeuSGmnP5qcbarvzMPu78IyL8J1OrO%2bm4YMDXsZPFwIAg%3d%3d
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS7TPro
+  ROM_URL: https://iweb.dl.sourceforge.net/project/davincirandom/StatiX/statix_davinci-20201023-0621-11-v4.0-UNOFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: StatixOS-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/OxygenOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/StatixOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/StatixOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
