@@ -38,7 +38,7 @@ jobs:
                  
        - name: Downloading Erfan Repo
          run: |
-           git clone --recurse-submodules https://github.com/JamieHoSzeYui/ErfanGSIs
+           git clone --recurse-submodules https://github.com/Treble-Experience/ErfanGSIs-VelanGSIs
            sudo chmod -R 777 ErfanGSIs
            cd ErfanGSIs
            sudo bash setup.sh 
