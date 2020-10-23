@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZB601KL/UL-ASUS_X00T-WW-17.2017.2008.432-user.zip
-  ROM_NAME: ZenUI
-  ZIP_NAME: ZenUI-23-10-2020
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_casuarina_casuarinaopen/cbbeb0c9a3ac16338023f33e51e28456e7a65a49.zip
+  ROM_NAME: VOS
+  ZIP_NAME: VOS3.0-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ZenUI
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/ZenUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/VOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/VOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
