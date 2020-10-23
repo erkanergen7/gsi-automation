@@ -8,15 +8,15 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://tdrive.ridhinabraham.workers.dev//Mi9TPro-RedmiK20Pro_MIUI_V12.0.2.0.QFKCNXM_MiRoom_10.0.zip
-  ROM_NAME: MIUI:MiRoom
-  ZIP_NAME: MiRoom-Helios-22-10-2020
+  ROM_URL: https://mva1.androidfilehost.com/dl/-YZVLEoYH7hubb1WWdotxw/1603497878/10763459528675567017/AOSiP-10-Quiche-lavender-20201018.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Aosip
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/helios-gsis/HeliosBakery
-  SFDIRA2: cd /home/pfs/project/helios-gsis/Heliosbakerybills
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI
   SFUSER: ${{ secrets.SFUSER }}
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -58,7 +58,7 @@ jobs:
          run: |   
               cd ErfanGSIs/output
               expect -c " 
-              spawn sftp $SFUSER
+              spawn sftp berkay-gsi@frs.sourceforge.net
               expect \"yes/no\"
               send \"yes\r\"
               expect \"Password\"        
@@ -72,7 +72,7 @@ jobs:
               expect \"sftp>\"
               interact"
               expect -c "
-              spawn sftp $SFUSER
+              spawn sftp berkay-gsi@frs.sourceforge.net
               expect \"Password\"
               send \"${{ secrets.SFGPASS }}\r\"
               expect \"sftp> \"
@@ -84,7 +84,7 @@ jobs:
               expect \"sftp>\"
               interact"
               expect -c "
-              spawn sftp $SFUSER
+              spawn sftp berkay-gsi@frs.sourceforge.net
               expect \"Password\"
               send \"${{ secrets.SFGPASS }}\r\"
               expect \"sftp> \"
