@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: http://arix.postaw.se/davinci/legion/LegionOS-v3.2-davinci-20201016-Unofficial-Vanilla.zip
+  ROM_URL: https://mva2.androidfilehost.com/dl/lK4m438qsUi0f4WbAVB00Q/1603536891/10763459528675565351/PixelExtended_mido-11-20201016-0856-OFFICIAL.zip
   ROM_NAME: Generic
-  ZIP_NAME: LegionOS-23-10-2020
+  ZIP_NAME: PixelExtended-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/LegionOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/LegionOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/PixelExtended
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/PixelExtended
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
