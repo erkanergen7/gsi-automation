@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mde1.androidfilehost.com/dl/vOYByBNgu8KMpZSoF4D78Q/1603538903/10763459528675569900/xiaomi.eu_multi_MINote10_MICC9Pro_20.10.22_v12-11.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: Xiaomi.EU-(11)-23-10-2020
+  ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZB601KL/UL-ASUS_X00T-WW-17.2017.2008.432-user.zip
+  ROM_NAME: ZenUI
+  ZIP_NAME: ZenUI-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/ZenUI
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/ZenUI
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
