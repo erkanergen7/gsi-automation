@@ -8,8 +8,8 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mva2.androidfilehost.com/dl/lK4m438qsUi0f4WbAVB00Q/1603536891/10763459528675565351/PixelExtended_mido-11-20201016-0856-OFFICIAL.zip
-  ROM_NAME: Generic
+  ROM_URL: https://download740.mediafire.com/xneueq5tuhwg/27jtcwm77izzsgs/Nokia_8_TA-1004_00WW_NB1_600WW_MSM8998_7.1.1_QFIL.zip
+  ROM_NAME: Nokia
   ZIP_NAME: PixelExtended-23-10-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
