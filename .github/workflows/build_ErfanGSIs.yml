@@ -10,7 +10,7 @@ on:
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://dlcdnets.asus.com/pub/ASUS/ZenFone/ZB601KL/UL-ASUS_X00T-WW-17.2017.2008.432-user.zip
   ROM_NAME: ZenUI
-  ZIP_NAME: ZenUI
+  ZIP_NAME: ZenUI-GSI
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/ZenUI
