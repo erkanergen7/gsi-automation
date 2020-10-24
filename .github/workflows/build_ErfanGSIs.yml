@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17_Pro/8.1.2.4/cn/20200908205339/d4cc2a1c/update.zip
-  ROM_NAME: Flyme
-  ZIP_NAME: FlymeOS-20.10.22
+  ROM_URL: https://master.dl.sourceforge.net/project/cherish-os/device/lavender/Cherish-OS-v2.0-Beta-20201022-1542-lavender-OFFICIAL.zip
+  ROM_NAME: Generic
+  ZIP_NAME: CherishOS-v2-24.10.2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Flyme
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/Flyme
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/CherishOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/CherishOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
