@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://dl.google.com/dl/android/aosp/redfin-ota-rd1a.200810.020-7b6b7070.zip
-  ROM_NAME: Pixel
-  ZIP_NAME: Pixel-5-(24.10.2020)
+  ROM_URL: https://dwnld.aicp-rom.com/device/lavender/WEEKLY/aicp_lavender_q-15.0-WEEKLY-20201021.zip
+  ROM_NAME: Generic:Aıcp
+  ZIP_NAME: Aıcp15-(24.10.2020)
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Pixel
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/Pixel
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/AICP
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/AICP
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
