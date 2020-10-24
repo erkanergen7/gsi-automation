@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://master.dl.sourceforge.net/project/cherish-os/device/lavender/Cherish-OS-v2.0-Beta-20201022-1542-lavender-OFFICIAL.zip
-  ROM_NAME: Generic
-  ZIP_NAME: CherishOS-v2-24.10.2020
+  ROM_URL: https://ota.xiaomi-miui.gr/suktew23/roms/20.10.22/xiaomi-miui-hellas-XTRV-HMNote7_20.10.22_v12-10.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: Miui Hellas XTRV 20.10.22-(24.10.2020)
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/CherishOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/CherishOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
