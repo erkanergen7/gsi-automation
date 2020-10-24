@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l79031/L79031_EE_SECURE_USER_Q00114.1a_Q_ROW_12.0.086_ST_201012_qpst.zip
-  ROM_NAME: ZUI
-  ZIP_NAME: ZUI-12.0.142- 20.10.22
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17_Pro/8.1.2.4/cn/20200908205339/d4cc2a1c/update.zip
+  ROM_NAME: Flyme
+  ZIP_NAME: FlymeOS-20.10.22
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ZUI
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/ZUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Flyme
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/Flyme
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
 
     steps:
        - name: Checkout
-         uses: actions/checkout@main
+         uses: actions/checkout@master
        
            
        - name: Configuring settings
@@ -44,7 +44,6 @@ jobs:
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
-
 
        - name: Downloading Rom
          run: cd ErfanGSIs && sudo ./url2GSI.sh $ROM_URL $ROM_NAME 
