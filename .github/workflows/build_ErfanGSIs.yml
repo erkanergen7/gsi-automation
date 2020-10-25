@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://bigota.d.miui.com/V11.0.15.0.QDIMIXM/miui_JASMINEGlobal_V11.0.15.0.QDIMIXM_95bb8d0a58_10.0.zip
+  ROM_URL: https://netactuate.dl.sourceforge.net/project/komodos-rom/ginkgo/KomodoOS-ginkgo-2.9.1-20201023-1838-RELEASE-TOXICOFERA.zip
   ROM_NAME: Generic
-  ZIP_NAME: AndroidOne-MiA2
+  ZIP_NAME: KomodoOS-2-9-1
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/AndroidOne
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/AndroidOne
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/KomodoOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/KomodoOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
