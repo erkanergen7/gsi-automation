@@ -10,11 +10,11 @@ on:
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://download.wetransfer.com//eu2/df0372c6b775e6c98efc5a5f56de5c0620201025201450/53bd597a877b706dfd9e516cc70dcf83604134c5/BootleggersROM-Rimbon4raphael.5.7-Alpha-Testing-20201025-104742.zip?cf=y&token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDM2NTc2MTMsInVuaXF1ZSI6ImRmMDM3MmM2Yjc3NWU2Yzk4ZWZjNWE1ZjU2ZGU1YzA2MjAyMDEwMjUyMDE0NTAiLCJmaWxlbmFtZSI6IkJvb3RsZWdnZXJzUk9NLVJpbWJvbjRyYXBoYWVsLjUuNy1BbHBoYS1UZXN0aW5nLTIwMjAxMDI1LTEwNDc0Mi56aXAiLCJ3YXliaWxsX3VybCI6Imh0dHA6Ly9wcm9kdWN0aW9uLmJhY2tlbmQuc2VydmljZS5ldS13ZXN0LTEud3Q6OTI5Mi93YXliaWxsL3YxL3Nhcmthci84MGM3NmMyMWY0ZGUwY2E0MDZkNzQyOTA4YzAxNTBmYWM1ZTc0ZGFjYTdiMzVlNmYyYTk2MTJhM2Q2NTAzMDdjMmNhMzRlM2IwNmQyMDE3MDNkN2U0MSIsImZpbmdlcnByaW50IjoiNTNiZDU5N2E4NzdiNzA2ZGZkOWU1MTZjYzcwZGNmODM2MDQxMzRjNSIsImNhbGxiYWNrIjoie1wiZm9ybWRhdGFcIjp7XCJhY3Rpb25cIjpcImh0dHA6Ly9wcm9kdWN0aW9uLmZyb250ZW5kLnNlcnZpY2UuZXUtd2VzdC0xLnd0OjMwMDAvd2ViaG9va3MvYmFja2VuZFwifSxcImZvcm1cIjp7XCJ0cmFuc2Zlcl9pZFwiOlwiZGYwMzcyYzZiNzc1ZTZjOThlZmM1YTVmNTZkZTVjMDYyMDIwMTAyNTIwMTQ1MFwiLFwiZG93bmxvYWRfaWRcIjoxMDU2NjUzMzYyMyxcInJlY2lwaWVudF9pZFwiOlwiOWNiYWM0NTlkMGFhNDg1NjA4NTIzM2UyOGRhMTMzNzUyMDIwMTAyNTIwMTUyMlwifX0ifQ.PMCRo3PI0w45omSB-zNUAyK5fbPCtOve20u7BbZWx4g
   ROM_NAME: Generic
-  ZIP_NAME: BootleggersAlpha11
+  ZIP_NAME: AwakenOS11
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/Bootleggers
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/AwakenOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/AwakenOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
