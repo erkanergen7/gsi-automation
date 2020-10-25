@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://s296sas.storage.yandex.net/rdisk/11f9f7f5b616a84d8446d77e725d72f3b4a5156112ded1c8c0dc9dddd126f2d4/5f960770/Av7yVleztnw7sFG-Vu0QQ5k9rnq5VRy1QwUi6ZVZC5Vf7zHkUcgi25G5qQiT4gDq8bgXWeKgkdaJFTwFrJWPag==?uid=0&filename=MIUITR_20.10.22_MIMAX3_NITROGEN_M12-A10.zip&disposition=attachment&hash=DcxOA3alpkhdHQNvy%2Bd5xqxjD3qN6dm59vFj5NUlTQFi5wGqArZTxQjLZy416Rb/q/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1768138922&hid=933df1721b8c31e240d2141c1d2d392c&media_type=compressed&tknv=v2&rtoken=mH0B56THQx2N&force_default=no&ycrid=na-51e40223769f0a1f590f391776dcea25-downloader5h&ts=5b28702fcbc00&s=6a444b9ad910edb2639e0bfa9188cb78eaffa96f80b68d3103c8248c9be86649&pb=U2FsdGVkX181X2xlc4QLjpRVW8zpaAhbo8qqtew-_njL8s_SY7AVbIb2CTGuNaA-DsCJ01lpeHZ5etAbAp_C_B_S47y2XOHRrpyj3qCXERY
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUITR_20-10-22
+  ROM_URL: https://download.wetransfer.com//eu2/df0372c6b775e6c98efc5a5f56de5c0620201025201450/53bd597a877b706dfd9e516cc70dcf83604134c5/BootleggersROM-Rimbon4raphael.5.7-Alpha-Testing-20201025-104742.zip?cf=y&token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDM2NTc2MTMsInVuaXF1ZSI6ImRmMDM3MmM2Yjc3NWU2Yzk4ZWZjNWE1ZjU2ZGU1YzA2MjAyMDEwMjUyMDE0NTAiLCJmaWxlbmFtZSI6IkJvb3RsZWdnZXJzUk9NLVJpbWJvbjRyYXBoYWVsLjUuNy1BbHBoYS1UZXN0aW5nLTIwMjAxMDI1LTEwNDc0Mi56aXAiLCJ3YXliaWxsX3VybCI6Imh0dHA6Ly9wcm9kdWN0aW9uLmJhY2tlbmQuc2VydmljZS5ldS13ZXN0LTEud3Q6OTI5Mi93YXliaWxsL3YxL3Nhcmthci84MGM3NmMyMWY0ZGUwY2E0MDZkNzQyOTA4YzAxNTBmYWM1ZTc0ZGFjYTdiMzVlNmYyYTk2MTJhM2Q2NTAzMDdjMmNhMzRlM2IwNmQyMDE3MDNkN2U0MSIsImZpbmdlcnByaW50IjoiNTNiZDU5N2E4NzdiNzA2ZGZkOWU1MTZjYzcwZGNmODM2MDQxMzRjNSIsImNhbGxiYWNrIjoie1wiZm9ybWRhdGFcIjp7XCJhY3Rpb25cIjpcImh0dHA6Ly9wcm9kdWN0aW9uLmZyb250ZW5kLnNlcnZpY2UuZXUtd2VzdC0xLnd0OjMwMDAvd2ViaG9va3MvYmFja2VuZFwifSxcImZvcm1cIjp7XCJ0cmFuc2Zlcl9pZFwiOlwiZGYwMzcyYzZiNzc1ZTZjOThlZmM1YTVmNTZkZTVjMDYyMDIwMTAyNTIwMTQ1MFwiLFwiZG93bmxvYWRfaWRcIjoxMDU2NjUzMzYyMyxcInJlY2lwaWVudF9pZFwiOlwiOWNiYWM0NTlkMGFhNDg1NjA4NTIzM2UyOGRhMTMzNzUyMDIwMTAyNTIwMTUyMlwifX0ifQ.PMCRo3PI0w45omSB-zNUAyK5fbPCtOve20u7BbZWx4g
+  ROM_NAME: Generic
+  ZIP_NAME: BootleggersAlpha11
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/Bootleggers
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
