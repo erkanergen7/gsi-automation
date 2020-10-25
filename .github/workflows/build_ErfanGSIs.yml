@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://netactuate.dl.sourceforge.net/project/komodos-rom/ginkgo/KomodoOS-ginkgo-2.9.1-20201023-1838-RELEASE-TOXICOFERA.zip
+  ROM_URL: https://github.com/Team-420/KekHunter-420/releases/download/lavender-1.0/lineage-kek-17.1-20201025-UNOFFICIAL-lavender.zip
   ROM_NAME: Generic
-  ZIP_NAME: KomodoOS-2-9-1
+  ZIP_NAME: KekHunter-420-v1
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/KomodoOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/KomodoOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/KekHunter
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/KekHunter
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
