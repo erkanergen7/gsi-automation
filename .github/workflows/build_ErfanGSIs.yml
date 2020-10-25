@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://hell.godseye.workers.dev//Rog_20.10.15_tulip_by_sumit.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: AbhiX-ROG-Edition-20.10.15
+  ROM_URL: https://dwnld.aicp-rom.com/device/lavender/WEEKLY/aicp_lavender_q-15.0-WEEKLY-20201021.zip
+  ROM_NAME: Generic
+  ZIP_NAME: Aıcp15-(25.10.2020)
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/AICP
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/AICP
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
