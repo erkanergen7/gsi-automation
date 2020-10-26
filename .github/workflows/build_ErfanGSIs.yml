@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mva2.androidfilehost.com/dl/vnieaN8qt82KRqaKuUmdVw/1603810970/10763459528675571355/MIUIPLUS_RAPHAEL.MI9Tpro.20.10.22_M12.A10.zip
+  ROM_URL: https://s215vla.storage.yandex.net/rdisk/ecef3c6c382a6ae1a986e883d96a0d6a792e1923de8dabcd5d45cacf35c6bfdc/5f972b59/Av7yVleztnw7sFG-Vu0QQ8UOjS0DDRU4BwZNeKS_YcVetwdSmY3g30tUnVr2BBEc0spvUBHHgCrUmJ8ekc2dWg==?uid=0&filename=MIUITR_20.10.22_REDMINOTE8T_WILLOW_M12-A10.zip&disposition=attachment&hash=bm2nkiuquhoHjhJXVDjfnnwgznFCwp%2Bxb3bBcTmUJF1GJ8wMsdhPUj2zTagTa34tq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1779230964&hid=78e8710cbdbaf5e946655f072d0809b5&media_type=compressed&tknv=v2&rtoken=rld53CdN6g8U&force_default=no&ycrid=na-96a442e73af030b9dc913188fabd7bee-downloader8f&ts=5b298692ec840&s=4a9504154510a06db30946e69626fb7199b857b20c33b9fd79f2848f9582a8fe&pb=U2FsdGVkX1_QtQbszuxKNdo284rHZI1LohhwSeXrP3KLSON03lxZsecX9NahdM4Xz4lGsvCO6DUqPwHWgZ3vvk6hKGJlieIEesZJTYat_qQ
   ROM_NAME: MIUI
-  ZIP_NAME: MIUIPLUS--20-10-22
+  ZIP_NAME: MIUITR--20-10-22-rn8t
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
