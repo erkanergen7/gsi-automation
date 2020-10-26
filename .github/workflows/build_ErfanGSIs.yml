@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://download.wetransfer.com//eu2/4e454c4468e54114fc64fc56d30a8ad820201026113736/30e2b35e35e058e42b3a35fad9d2116f5c4fbdd6/Fluid-0.6-Quenol-UNOFFICIAL-lavender-20201024.zip?cf=y&token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDM3MTM1NTUsInVuaXF1ZSI6IjRlNDU0YzQ0NjhlNTQxMTRmYzY0ZmM1NmQzMGE4YWQ4MjAyMDEwMjYxMTM3MzYiLCJmaWxlbmFtZSI6IkZsdWlkLTAuNi1RdWVub2wtVU5PRkZJQ0lBTC1sYXZlbmRlci0yMDIwMTAyNC56aXAiLCJ3YXliaWxsX3VybCI6Imh0dHA6Ly9wcm9kdWN0aW9uLmJhY2tlbmQuc2VydmljZS5ldS13ZXN0LTEud3Q6OTI5Mi93YXliaWxsL3YxL3Nhcmthci82NWJlMWRkZTY3ODJiNmY1YmZiMGNlZjZlNjAwNWZjMmU0ZmIxNTllYjJjY2E4OTFlY2YxNjJhZTc1YzM3YWUwNGQzODAxY2ZjNjEzMzU2OTUyMTFjNSIsImZpbmdlcnByaW50IjoiMzBlMmIzNWUzNWUwNThlNDJiM2EzNWZhZDlkMjExNmY1YzRmYmRkNiIsImNhbGxiYWNrIjoie1wiZm9ybWRhdGFcIjp7XCJhY3Rpb25cIjpcImh0dHA6Ly9wcm9kdWN0aW9uLmZyb250ZW5kLnNlcnZpY2UuZXUtd2VzdC0xLnd0OjMwMDAvd2ViaG9va3MvYmFja2VuZFwifSxcImZvcm1cIjp7XCJ0cmFuc2Zlcl9pZFwiOlwiNGU0NTRjNDQ2OGU1NDExNGZjNjRmYzU2ZDMwYThhZDgyMDIwMTAyNjExMzczNlwiLFwiZG93bmxvYWRfaWRcIjoxMDU3MTE4NDQ1OCxcInJlY2lwaWVudF9pZFwiOlwiY2QwMTE3OGFmNzc0MDA3NmM2MTE0MjM4MmRlZDQ4MDMyMDIwMTAyNjExMzc1MFwifX0ifQ.cQ8Ut33JnUfT1e_zG47CJ6VRmsY2gHM_UhMC4XTkyDQ
-  ROM_NAME: Generic
-  ZIP_NAME: FluidOS-06-Quenol
+  ROM_URL: https://mva2.androidfilehost.com/dl/vnieaN8qt82KRqaKuUmdVw/1603810970/10763459528675571355/MIUIPLUS_RAPHAEL.MI9Tpro.20.10.22_M12.A10.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MIUIPLUS--20-10-22
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/FluidOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/FluidOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
