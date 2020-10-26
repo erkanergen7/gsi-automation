@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH1941/CPH1941EUEX_11_OTA_1800_all_FTXgE0tTvrBn.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS--10-21-2020
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_casuarina_casuarinaopen/cbbeb0c9a3ac16338023f33e51e28456e7a65a49.zip
+  ROM_NAME: VOS
+  ZIP_NAME: VOS-SMARTACTİVE-10-21-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ColorOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/ColorOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/VOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/VOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
