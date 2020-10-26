@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mde1.androidfilehost.com/dl/9VzVjHqKEh6MZ6BH-ykXEA/1603818430/10763459528675570364/ALEXISROM_1.9.1_Note9.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: OneUI-Test
+  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH1941/CPH1941EUEX_11_OTA_1800_all_FTXgE0tTvrBn.ozip
+  ROM_NAME: ColorOS
+  ZIP_NAME: ColorOS--10-21-2020
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/OneUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/ColorOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/ColorOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
