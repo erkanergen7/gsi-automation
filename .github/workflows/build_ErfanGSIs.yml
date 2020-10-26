@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://netix.dl.sourceforge.net/project/cesiumos-org/begonia/CesiumOS-v3.0-begonia-20201026-1005-BETA.zip
-  ROM_NAME: Generic
-  ZIP_NAME: CesiumOS-3.0
+  ROM_URL: https://www.realme.com/tr/support/software-update#
+  ROM_NAME: RealmeUI
+  ZIP_NAME: RealmeUI-Test
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/CesiumOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/CesiumOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/RealmeUI
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/RealmeUI
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
