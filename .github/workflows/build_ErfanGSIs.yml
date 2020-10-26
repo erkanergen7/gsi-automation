@@ -76,7 +76,7 @@ jobs:
               expect \"Password\"        
               send \"${{ secrets.SFGPASS }}\r\"
               expect \"sftp> \"
-              send \"$SFDIRA2\r\"
+              send \"$SFDIRA1\r\"
               set timeout -1
               send \"put *-Aonly-*.txt\r\"
               expect \"Uploading\"
@@ -108,3 +108,6 @@ jobs:
               expect \"sftp>\"
               send \"bye\r\"
               interact"  
+       - name: Print build info
+         run: |
+              cat ErfanGSIs/output/*-Aonly-*.txt
