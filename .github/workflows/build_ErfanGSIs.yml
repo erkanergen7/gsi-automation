@@ -78,18 +78,6 @@ jobs:
               expect \"sftp> \"
               send \"$SFDIRA1\r\"
               set timeout -1
-              send \"put *-Aonly-*.txt\r\"
-              expect \"Uploading\"
-              expect \"100%\"
-              expect \"sftp>\"
-              interact"
-              expect -c "
-              spawn sftp berkay-gsi@frs.sourceforge.net
-              expect \"Password\"
-              send \"${{ secrets.SFGPASS }}\r\"
-              expect \"sftp> \"
-              send \"$SFDIRA1\r\"
-              set timeout -1
               send \"put $ZIP_NAME-GSI-Aonly.7z\r\"
               expect \"Uploading\"
               expect \"100%\"
