@@ -65,6 +65,8 @@ jobs:
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
               
        - name: Uploading SourceForge
+         continue-on-error: true
+         timeout-minutes: 100
          run: |   
               cd ErfanGSIs/output
               expect -c " 
