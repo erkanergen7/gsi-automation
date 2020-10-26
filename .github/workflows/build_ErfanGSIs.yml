@@ -8,13 +8,13 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH2035/CPH2035EU_11_OTA_0260_all_vjPX4o6sc7BR.ozip
-  ROM_NAME: ColorOS
-  ZIP_NAME: ColorOS
+  ROM_URL: https://netix.dl.sourceforge.net/project/cesiumos-org/begonia/CesiumOS-v3.0-begonia-20201026-1005-BETA.zip
+  ROM_NAME: Generic
+  ZIP_NAME: CesiumOS-3.0
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ColorOS
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/ColorOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/CesiumOS
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/CesiumOS
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
