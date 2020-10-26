@@ -4,8 +4,6 @@
  
   <<   SUPPORTED ANDROİD 10 ROMS >>> 
 
-
-| ----------------------- |
 | 1.ColorOS               |
 | 2.Flyme                 |
 | 3.Generic               |                                                         
@@ -20,9 +18,7 @@
                              
                              
   << SUPPORTED ANDROİD 11 ROMS >>      
-   
-   
-|  -------- |  
+  
 | 1.Generic |
 | 2.MIUI    |
 | 3.Pixel   |   
