@@ -1,15 +1,9 @@
-                                𝙃𝙚𝙡𝙞𝙤𝙨𝘽𝙖𝙠𝙚𝙧 This Project should not be shared with *others*. those have given access can **Bake**
+                                Project owner 🆂🅷🅰🅳🅴🆂🅾🅵🅳🅴🅰🆃🅷
 
-### INSTRUCTIONS ABOUT USING THIS TOOL: ###
-### you should change the following env from the workflow : ###
- 
 
-### change ROM_URL,  ROM_NAME,  ZIP_NAME,  ROMZIP_NAME  respectivley. ROM_NAME is case sensitive  ### 
  
-  <<   ALL THESE ANDROID 10 >>> 
- 
- 
-SUPPORTED ROM LIST 
+  <<   SUPPORTED ANDROİD 10 ROMS >>> 
+
 | ----------------------- |
 | 1.ColorOS               |
 | 2.Flyme                 |
@@ -18,24 +12,15 @@ SUPPORTED ROM LIST
 | 5.MIUI                  |                              
 | 6.Moto                  |
 | 7.Nubia                 |
-| 8.OneUI{Bad perfomance} |
 | 9.OxygenOS              |
 | 10.Pixel                |
-| 11.RazerUI              |
-| 12.RogUI                |
-| 13.SmartisanOS          |
-| 14.VOS                  |
-| 15.Xperia               |
 | 16.ZenUI                |
 | 17.ZUI                  |
                              
                              
-  << THESE ARE ANDROID 11 >>      
+  << SUPPORTED ANDROİD 11 ROMS >>      
          
-   SUPPORTED ROM LIST                            
 |  -------- |  
 | 1.Generic |
 | 2.MIUI    |
-| 3.Pixel   |
-
-                            << THESE ARE ANDROID 11 >>
+| 3.Pixel   |   
