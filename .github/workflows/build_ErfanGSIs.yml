@@ -10,11 +10,11 @@ on:
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://www.realme.com/tr/support/software-update#
   ROM_NAME: RealmeUI
-  ZIP_NAME: RealmeUI-Test
+  ZIP_NAME: RealmeUI
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/RealmeUI
-  SFDIRA2: cd /home/pfs/project/berkay-gsi/RealmeUI
+  SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
 
     steps:
        - name: Checkout
-         uses: actions/checkout@master
+         uses: actions/checkout@main
        
            
        - name: Configuring settings
@@ -37,27 +37,19 @@ jobs:
             
                  
        - name: Downloading Erfan Repo
-         continue-on-error: true
-         timeout-minutes: 100
          run: git clone ${{ secrets.ERFAN }}
        
        - name: Setting up ErfanGSI requirements
-         continue-on-error: true
-         timeout-minutes: 10
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
 
        - name: Downloading Rom
-         continue-on-error: true
-         timeout-minutes: 100
          run: cd ErfanGSIs && sudo ./url2GSI.sh $ROM_URL $ROM_NAME 
      
                        
        - name: Zipping..
-         continue-on-error: true
-         timeout-minutes: 100
          run: |
               mkdir final
               sudo chmod -R 777 ErfanGSIs/output
@@ -65,8 +57,6 @@ jobs:
               zip -r ErfanGSIs/output/$ZIP_NAME-GSI-AB.7z ErfanGSIs/output/*-AB-*.img
               
        - name: Uploading SourceForge
-         continue-on-error: true
-         timeout-minutes: 100
          run: |   
               cd ErfanGSIs/output
               expect -c " 
@@ -74,6 +64,18 @@ jobs:
               expect \"yes/no\"
               send \"yes\r\"
               expect \"Password\"        
+              send \"${{ secrets.SFGPASS }}\r\"
+              expect \"sftp> \"
+              send \"$SFDIRA2\r\"
+              set timeout -1
+              send \"put *-Aonly-*.txt\r\"
+              expect \"Uploading\"
+              expect \"100%\"
+              expect \"sftp>\"
+              interact"
+              expect -c "
+              spawn sftp berkay-gsi@frs.sourceforge.net
+              expect \"Password\"
               send \"${{ secrets.SFGPASS }}\r\"
               expect \"sftp> \"
               send \"$SFDIRA1\r\"
