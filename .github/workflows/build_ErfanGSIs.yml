@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://www.realme.com/tr/support/software-update#
-  ROM_NAME: RealmeUI
-  ZIP_NAME: RealmeUI
+  ROM_URL: https://mor1.androidfilehost.com/dl/k6vsl6ItL6_ZMmGa_Nuurg/1604425378/10763459528675574410/MMX_2.2.0_ginkgo_20.10.29_v12-10_9_20201029.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MMX_2.2.0_20_10_29
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/RealmeUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
