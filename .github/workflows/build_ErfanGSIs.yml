@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://netix.dl.sourceforge.net/project/one-os/Mi9T/OneOS_Mi9T_20.11.02_v12-11.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: OneOS_20_11_02
+  ROM_URL: https://netix.dl.sourceforge.net/project/evolution-x/X00TD/EvolutionX_5.1_X00TD-11-20201103-0709-OFFICIAL.zip
+  ROM_NAME: Generic:EvolutionX
+  ZIP_NAME: EvolutionX_5-1
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/EvolutionX
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
