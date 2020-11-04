@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mva1.androidfilehost.com/dl/7Lsa-TBc1nSZK2QNpvvCoA/1604523870/10763459528675576711/greeshan.eu5.org_RedmiNote8_ginkgo_V12.0.1.0.QCOMIXM_stable_10.0.zip
-  ROM_NAME: MIUI:GreeshanRepack
-  ZIP_NAME: GreeshanRepackMıuı12
+  ROM_URL: https://mva1.androidfilehost.com/dl/ChFOsTQd_iUjNK_E6tj8Ug/1604573894/10763459528675577265/PixelExperience_ginkgo-10.0-20201103-1023-FireBuild.zip
+  ROM_NAME: Pixel:PixelExperience
+  ZIP_NAME: PixelExperience10
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/PixelExperience
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
