@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://m.mark41stark.workers.dev//Davinci_One_OS-For_Lavender-By_@whtisusername.zip
-  ROM_NAME: MIUI:OneOS
-  ZIP_NAME: (OneOS_Androıd10_Mıuı12_20-11-02)
+  ROM_URL: https://s287vla.storage.yandex.net/rdisk/7db9e3694d0e464a6b1f64f8b6529ed26c9edd2b47988133f51b64425ae81b26/5fa43492/Av7yVleztnw7sFG-Vu0QQwi7v00ywxeoiu9F5Ymx_UWa-XhRr06IvCzFcB5gtm4b6KU0JT-q5W_TV0Z3jgnhzg==?uid=0&filename=MIUITR_20.10.22_MI6_SAGIT_M12-A9.zip&disposition=attachment&hash=Ct4qfft5e29kxucV8ej3/lLFSIHE/SX9kSQbj52jZRLC21dbqycmvl4VXpNQW3f8q/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fjava-archive&owner_uid=226448624&fsize=1619475429&hid=a9caed0094de80418c018febcb67e89e&media_type=compressed&tknv=v2&rtoken=9vWnU2FJSGz7&force_default=no&ycrid=na-b2d5b21f72891b4ad7dd8066d7ba9286-downloader2e&ts=5b35f5328c880&s=264c453499273c939551ffa10bf6bf0291efe24fd250566263c9264488d326bc&pb=U2FsdGVkX1-40ra2TkNrkKusFdbD2IAmYe8d9r39ypSsx5ddliYhiJvowkCdD-qt24BM5ew0e3fiBB-BbxiFTUx1R0fTyU1mdDwbvWBxNuU
+  ROM_NAME: MIUI:MIUITR
+  ZIP_NAME: MIUITR-20_10_22
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
