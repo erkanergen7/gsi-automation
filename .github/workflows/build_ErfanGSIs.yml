@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://netix.dl.sourceforge.net/project/evolution-x/X00TD/EvolutionX_5.1_X00TD-11-20201106-0143-OFFICIAL.zip
-  ROM_NAME: Generic:EvolutionX
-  ZIP_NAME: EvolutionX-5.1
+  ROM_URL: https://s41vla.storage.yandex.net/rdisk/1912d1744b98e8ad8dcf6711f4317f819684f519111fd29196d0727dc54563c8/5fa8b5c7/Av7yVleztnw7sFG-Vu0QQ3nZgke4UcpGPpyELIqKU3_uVNHW-yKZQ4vzaePOlUXfxpGd84TmDSOCljHzAPFo5Q==?uid=0&filename=MIUITR_20.11.5_MI6X_WAYNE_M12-A9.zip&disposition=attachment&hash=IU0TmRcIBu86Gi5PyXxAy/lqRmptffnHe1beYruA3rP8xXNyVytLmfmEXcMyawdnq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=226448624&fsize=1727379284&hid=7632c49c84156bbe40fda55752998b6e&media_type=compressed&tknv=v2&rtoken=4JOsUqIg18NG&force_default=no&ycrid=na-82825812197286b4fc48b8f31c3b5b94-downloader5h&ts=5b3a40fb3bfc0&s=5641d01da115bd4c8fe14edf3fae7e8055367883f3625edcc668000cf67c03cf&pb=U2FsdGVkX1-f1afdjWV8h17neJQniHUfddPWiGLhrNNyOrl1ayQTcYIarNlh24mA0sVGvJy_bc8qSarVMpLBF_JDwHPNbuNlqJ_m6dTjQI0
+  ROM_NAME: MIUI:MIUITR-20.11.5
+  ZIP_NAME: MIUITR-20.11.5
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/EvolutionX
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
