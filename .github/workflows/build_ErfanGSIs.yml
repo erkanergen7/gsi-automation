@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://master.dl.sourceforge.net/project/projectstreak/raphael/Streak-1.0-Hummingbird-raphael-MIUI_VENDOR-OFFICIAL-08112020-1736.zip
-  ROM_NAME: Generic:StreakOS
-  ZIP_NAME: StreakOS-HummingBird
+  ROM_URL: https://master.dl.sourceforge.net/project/yusuf/bootleg/BootleggersROM-Rimbon4davinci.5.7-Alpha-Testing-20201102-VANILLA-2.zip
+  ROM_NAME: Generic:Bootleggers-5.7
+  ZIP_NAME: Bootleggers-5.7
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/StreakOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
