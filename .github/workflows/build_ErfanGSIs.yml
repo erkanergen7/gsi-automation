@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://master.dl.sourceforge.net/project/yusuf/bootleg/BootleggersROM-Rimbon4davinci.5.7-Alpha-Testing-20201102-VANILLA-2.zip
-  ROM_NAME: Generic:Bootleggers-5.7
-  ZIP_NAME: Bootleggers-5.7
+  ROM_URL: https://netix.dl.sourceforge.net/project/derpfest/ginkgo/DerpFest-11-Official-Alpha-ginkgo-20201110.zip
+  ROM_NAME: Generic:DerpFestAlpha-R
+  ZIP_NAME: DerpFestAlpha-R
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/DerpFest
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
