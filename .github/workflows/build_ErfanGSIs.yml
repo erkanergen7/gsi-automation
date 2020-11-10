@@ -13,7 +13,7 @@ env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. RO
   ZIP_NAME: DerpFestAlpha-R
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/DerpFest
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Derpfest
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
