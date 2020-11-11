@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://netix.dl.sourceforge.net/project/derpfest/ginkgo/DerpFest-11-Official-Alpha-ginkgo-20201110.zip
-  ROM_NAME: Generic:DerpFestAlpha-R
-  ZIP_NAME: DerpFestAlpha-R
+  ROM_URL: https://get.resurrectionremix.com/ten/rolex/gapps/RROS-Q-8.6.4-20201111-rolex-Official-GAPPS.zip
+  ROM_NAME: Generic:RR
+  ZIP_NAME: RR
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Derpfest
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/RR
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
