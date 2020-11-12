@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://get.resurrectionremix.com/ten/rolex/gapps/RROS-Q-8.6.4-20201111-rolex-Official-GAPPS.zip
-  ROM_NAME: Generic:RR
-  ZIP_NAME: RR
+  ROM_URL: https://bigota.d.miui.com/V12.0.4.0.PDMMIXM/miui_HM6ProINGlobal_V12.0.4.0.PDMMIXM_ad48898cf1_9.0.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MIUI12-HAKANGUVEN
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/RR
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
