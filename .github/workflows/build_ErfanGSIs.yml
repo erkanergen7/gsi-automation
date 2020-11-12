@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://eu5.easyupload.io/download/0glmnl/v98zn6qrfe5cxazidiu46entr3ulwtw3
-  ROM_NAME: MIUI:Mİ-ALPHA-v2-20.11.5
-  ZIP_NAME: Mİ-ALPHA-v2-20.11.5
+  ROM_URL: https://netix.dl.sourceforge.net/project/havoc-os/ginkgo/Havoc-OS-v3.11-20201112-ginkgo-Official.zip
+  ROM_NAME: Generic:HavocOS-3.11-Android10
+  ZIP_NAME: HavocOS-3.11-Android10
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/HavocOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
