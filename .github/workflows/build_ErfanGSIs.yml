@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://bigota.d.miui.com/20.11.11/miui_LAVENDER_20.11.11_8b4f220bb2_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI12-HAKANGUVEN-2
+  ROM_URL: https://eu5.easyupload.io/download/0glmnl/v98zn6qrfe5cxazidiu46entr3ulwtw3
+  ROM_NAME: MIUI:Mİ-ALPHA-v2-20.11.5
+  ZIP_NAME: Mİ-ALPHA-v2-20.11.5
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
