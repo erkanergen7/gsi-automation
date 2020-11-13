@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://huxiabao.top/show/1/YouLinw/Flyme/8.20.6.24%20daily/Note8_200625-Flyme%208.20.6.24%20daily-dde46e.zip
-  ROM_NAME: Flyme
-  ZIP_NAME: Flyme8.20.6.24
+  ROM_URL: https://miui-nusantara-project.lamz.workers.dev/VINCE/KANGLIHAM_MIUI-X_V12.0.2.0_HM5Plus_V12-10.zip
+  ROM_NAME: MIUI:MIUI-X
+  ZIP_NAME: MIUI-X
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Flyme
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
