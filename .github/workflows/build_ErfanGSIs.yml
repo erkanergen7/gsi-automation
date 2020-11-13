@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://miui-nusantara-project.lamz.workers.dev/VINCE/KANGLIHAM_MIUI-X_V12.0.2.0_HM5Plus_V12-10.zip
-  ROM_NAME: MIUI:MIUI-X
-  ZIP_NAME: MIUI-X
+  ROM_URL: https://s303vla.storage.yandex.net/rdisk/d44ec8cfbd4e3c173fe72954eb916db9e346e4af98db49348220490eced3a0eb/5faec768/2rZJ6uvGvgvH9yXztd7gTkZarczldhGaVVWh_P5eLfYLcQpKjeksAmTmpJ1bknM1tocHPiSnvCXq36ntr_WyTg==?uid=0&filename=M%C4%B0-ALPHA%20v2%20-%20MIUI%2012%20-%2020.11.5.%20Stable%20by%20Shades_Of_Death00.zip&disposition=attachment&hash=ViCBIPUWetmXAUBC1ymCJaZBAdDSqjuE1Im0tkb2Z9OrxA2WIJdbigKKv9SUD38Iq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fzip&owner_uid=1190704782&fsize=2280160387&hid=689544c4cce2871a72e88eb55af91cc0&media_type=compressed&tknv=v2&rtoken=aqQAwfXaUDzR&force_default=no&ycrid=na-2ed938065af7517c10f2989b120b895f-downloader6h&ts=5b400aa32aa00&s=9c59a9cc14bb5420e6b9625378ca8f6697702538bd6c36c21b418aa1b767488b&pb=U2FsdGVkX1-TFwLsO9ZaTAO30ofo9ksXs3ZKsbQqMV4DwGuLgmNXgC_as3FlZb-qDMYrLy5TXQ5XJS3z9INkVRewHncS5E4x6nzKzzOF16A
+  ROM_NAME: MIUI:MI-ALPHA
+  ZIP_NAME: MI-ALPHA
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
