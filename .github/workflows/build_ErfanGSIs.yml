@@ -9,7 +9,7 @@ on:
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDU3Mzg5MDQiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjA5NGUyNDA2NmUzNWY4ZTg3ZjA1Mzc1YTU2YzQwMWFjYzNjNjE2ZjQyMDNlMjBlYmNmNjIzN2I2ZjljMjJiZTZmMjYwN2MxZWNiMWNjZWE5MGNhYzJkZmFkMjE2NzE4ZDU5OGQ4ZmIzMWFkNDNlMzhlMjBhZTI0YmNhMGJhMzQxIiwidCI6MTYwNTg1OTcwMCwic3RmcCI6ImY4NjFhNzQ1ZmM5M2NkMDI0Nzk0MGQ4NWZiZDY4MzU0Iiwic3RpcCI6Ijk1LjEyLjExNC4xMDAifQ.2WraWDZKdcR_gHFk0TL3q4lzeJab_BJ2yLpIZXXIsuo/Nusantara_v2.4-11-ginkgo-18112020-OFFICIAL-1051.zip
-  ROM_NAME: Generix:NusantaraProject-v2.4
+  ROM_NAME: Generic:NusantaraProject-v2.4
   ZIP_NAME: NusantaraProject-v2.4
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
