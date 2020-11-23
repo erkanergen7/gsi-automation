@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2170EU_11_OTA_0200_all_pAPdILA9Pvil.ozip
-  ROM_NAME: ColorOS:RealmeUI
-  ZIP_NAME: RealmeUI
+  ROM_URL: https://jaist.dl.osdn.jp/storage/g/r/re/revengeos/ginkgo/RevengeOS-4.0-R-OFFICIAL-ginkgo-20201122-1839.zip
+  ROM_NAME: Generic:RevengeOS-4-0
+  ZIP_NAME: RevengeOS-4-0
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ColorOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/RevengeOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
