@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://jaist.dl.osdn.jp/storage/g/r/re/revengeos/ginkgo/RevengeOS-4.0-R-OFFICIAL-ginkgo-20201122-1839.zip
-  ROM_NAME: Generic:RevengeOS-4-0
-  ZIP_NAME: RevengeOS-4-0
+  ROM_URL: https://ota.xiaomi-miui.gr/suktew23/roms/stable/MIUIv12/xiaomi-miui-hellas-XTRV-HMNote8_V12.0.3.0.QCOCNXM_v12-10.zip
+  ROM_NAME: MIUI:MIUI-HELLAS-XTRV
+  ZIP_NAME: MIUI-HELLAS-XTRV-V12-0-3-0
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/RevengeOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
