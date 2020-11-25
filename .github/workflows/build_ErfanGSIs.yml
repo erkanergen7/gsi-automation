@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://ota.xiaomi-miui.gr/suktew23/roms/stable/MIUIv12/xiaomi-miui-hellas-XTRV-HMNote8_V12.0.3.0.QCOCNXM_v12-10.zip
-  ROM_NAME: MIUI:MIUI-HELLAS-XTRV
-  ZIP_NAME: MIUI-HELLAS-XTRV-V12-0-3-0
+  ROM_URL: https://universitytongji-my.sharepoint.cn/personal/mikequ_alumni_tongji_edu_cn/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fmikequ%5Falumni%5Ftongji%5Fedu%5Fcn%2FDocuments%2FGinkgo%2FFlyme%2FFlyme8%2DA10%2Dginkgo%5F8%2E20%2E11%2E10%2Ezip
+  ROM_NAME: Flyme:Flyme8
+  ZIP_NAME: Flyme8
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Flyme
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
