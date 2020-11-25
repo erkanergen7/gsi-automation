@@ -8,7 +8,7 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://universitytongji-my.sharepoint.cn/personal/mikequ_alumni_tongji_edu_cn/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fmikequ%5Falumni%5Ftongji%5Fedu%5Fcn%2FDocuments%2FGinkgo%2FFlyme%2FFlyme8%2DA10%2Dginkgo%5F8%2E20%2E11%2E10%2Ezip
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.11.10/cn_daily/20201110003048/9e816b1b/update.zip
   ROM_NAME: Flyme:Flyme8
   ZIP_NAME: Flyme8
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
