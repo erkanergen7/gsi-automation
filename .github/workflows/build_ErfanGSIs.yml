@@ -9,8 +9,8 @@ on:
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_13.W.45_OTA_045_all_2010191035_fde4ca8ebd8f4cfc.zip
-  ROM_NAME: OxygenOS:OxygenOS-OB19
-  ZIP_NAME: OxygenOS-OB19
+  ROM_NAME: OxygenOS:OxygenOS-OB4
+  ZIP_NAME: OxygenOS-OB4
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
