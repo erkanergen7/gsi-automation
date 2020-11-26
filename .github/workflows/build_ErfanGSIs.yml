@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_13.W.45_OTA_045_all_2010191035_fde4ca8ebd8f4cfc.zip
-  ROM_NAME: OxygenOS:OxygenOS-OB4
-  ZIP_NAME: OxygenOS-OB4
+  ROM_URL: https://liquidtelecom.dl.sourceforge.net/project/hpnightowl/ginkgo/e-0.13-q-20201116-UNOFFICIAL-ginkgo.zip?viasf=1
+  ROM_NAME: Generic:eeloOS
+  ZIP_NAME: eeloOS
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/eeloOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
