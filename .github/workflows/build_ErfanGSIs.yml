@@ -8,7 +8,7 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://ava1.androidfilehost.com/dl/T1DnJXT8rqjZ77-UnCGAXA/1606591918/4349826312261747576/A107FXXU5ATA9_A107FOJM5ATA9_XSG.zip
+  ROM_URL: https://ava1.androidfilehost.com/dl/hO_ZjOG29uJrzqvmI4w1fg/1606592631/4349826312261747579/A305FDDU4ATA2_A305FOJM4ATA1_XSG.zip
   ROM_NAME: OneUI
   ZIP_NAME: OneUI-Test-Buıld
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
