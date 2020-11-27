@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: http://download.h2os.com/OnePlus7/OBT/OnePlus7Hydrogen_13.X.45_OTA_045_all_2010191606_c4a40d7457f14128.zip
-  ROM_NAME: OxygenOS:HydrogenOS
-  ZIP_NAME: HydrogenOS-Beta-18
+  ROM_URL: https://downloads2.sfirmware.com/get/df336ee53188516827a8153022a3504d/SM-A715F_1_20200226203455_kg5yb88lf0_fac.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI-2-5
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/HydrogenOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
