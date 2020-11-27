@@ -36,7 +36,7 @@ jobs:
             sudo apt-get install -y expect
             
                  
-       - name: Downloading Erfan Repo
+       - name: Cloning Repo
          run: git clone ${{ secrets.ERFAN }}
        
        - name: Setting up ErfanGSI requirements
@@ -45,7 +45,7 @@ jobs:
               cd ErfanGSIs
               sudo bash setup.sh
 
-       - name: Downloading Rom
+       - name: Downloading Rom and Generate Gsi
          run: cd ErfanGSIs && sudo ./url2GSI.sh $ROM_URL $ROM_NAME 
      
                        
