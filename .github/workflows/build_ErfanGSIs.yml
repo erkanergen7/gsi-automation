@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://razaoinfo.dl.sourceforge.net/project/evolution-x/davinci/EvolutionX_5.1_davinci-11-20201125-0922-OFFICIAL.zip?viasf=1
-  ROM_NAME:   Generic:EvolutionX-5-1
-  ZIP_NAME: EvolutionX-5-1
+  ROM_URL: https://mpl1.androidfilehost.com/dl/a6PpimTVdTMEu1vY9WZMTw/1606587702/10763459528675592547/MIUIPLUS_NOTE8-ginkgo_20.11.25_V12-10.zip
+  ROM_NAME: MIUI:MIUIPlus
+  ZIP_NAME: MIUIPlus-20-11-25
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/EvolutionX
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
