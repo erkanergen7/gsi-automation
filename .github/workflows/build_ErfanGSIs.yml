@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://downloads2.sfirmware.com/get/df336ee53188516827a8153022a3504d/SM-A715F_1_20200226203455_kg5yb88lf0_fac.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: OneUI-2-5
+  ROM_URL: https://razaoinfo.dl.sourceforge.net/project/evolution-x/davinci/EvolutionX_5.1_davinci-11-20201125-0922-OFFICIAL.zip?viasf=1
+  ROM_NAME: EvolutionX
+  ZIP_NAME: EvolutionX-5-1
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/EvolutionX
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
