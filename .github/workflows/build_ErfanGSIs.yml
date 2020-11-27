@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mpl1.androidfilehost.com/dl/a6PpimTVdTMEu1vY9WZMTw/1606587702/10763459528675592547/MIUIPLUS_NOTE8-ginkgo_20.11.25_V12-10.zip
-  ROM_NAME: MIUI:MIUIPlus
-  ZIP_NAME: MIUIPlus-20-11-25
+  ROM_URL: https://ava1.androidfilehost.com/dl/Tze0RVhwG-CibDFA9SXQpg/1606589769/4349826312261748259/A705FXXU5ATA1_A705FOLM5ATA1_XME.zip
+  ROM_NAME: OneUI
+  ZIP_NAME: OneUI-Test-Buıld
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
