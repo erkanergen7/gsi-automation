@@ -8,7 +8,7 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mgb1.androidfilehost.com/dl/jeWNGffGrg6jpjR9Mct0gg/1606663596/10763459528675582638/AkimiOS%E9%8A%80%E6%B2%B3+FN.zip
+  ROM_URL: https://mde1.androidfilehost.com/dl/nB7d_f4NFqmOqobodBkMYA/1606664587/10763459528675575606/KirbyOS_v3.2_FN.zip
   ROM_NAME: OneUI
   ZIP_NAME: OneUI-Test-Buıld
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
