@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mva2.androidfilehost.com/dl/leqBaTAjZ9evt8RxLuQs3g/1606665496/10763459528675558787/PRISH_OS_A50s_PORT_v3.zip
+  ROM_URL: https://mva2.androidfilehost.com/dl/CMI4WgPlQEG0dFe_NU_0IA/1606666095/10763459528675572463/ALEXISROM_9.1.zip
   ROM_NAME: OneUI
-  ZIP_NAME: OneUI-Testing2
+  ZIP_NAME: OneUI-Testin3
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
