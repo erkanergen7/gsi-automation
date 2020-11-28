@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mva2.androidfilehost.com/dl/CMI4WgPlQEG0dFe_NU_0IA/1606666095/10763459528675572463/ALEXISROM_9.1.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: OneUI-Testin3
+  ROM_URL: https://r4---sn-4g5e6nes.gvt1.com/packages/data/ota-api/vsmart_jacaranda_jacarandaopen/12198da2140b32aa979058845de3c41f4be9e730.zip?mh=9O&mvi=4&pl=21&cm2rm=sn-u0g3uxax3-5tue7z,sn-nv4ly7z&req_id=f94da1f562ea57de&ipbypass=yes&redirect_counter=2&cms_redirect=yes&mip=95.12.112.160&mm=34&mn=sn-4g5e6nes&ms=ltu&mt=1606587875&mv=m
+  ROM_NAME: VOS
+  ZIP_NAME: VOS-ARIS
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Vos
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
