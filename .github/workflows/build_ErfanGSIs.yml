@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mde1.androidfilehost.com/dl/nB7d_f4NFqmOqobodBkMYA/1606664587/10763459528675575606/KirbyOS_v3.2_FN.zip
+  ROM_URL: https://master.dl.sourceforge.net/project/infinityosrom/A50s/InfinityOS%20A50s%20v1.zip?viasf=1
   ROM_NAME: OneUI
-  ZIP_NAME: OneUI-Test-Buıld
+  ZIP_NAME: OneUI-Testing
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
