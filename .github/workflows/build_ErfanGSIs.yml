@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://master.dl.sourceforge.net/project/infinityosrom/A50s/InfinityOS%20A50s%20v1.zip?viasf=1
+  ROM_URL: https://mva2.androidfilehost.com/dl/leqBaTAjZ9evt8RxLuQs3g/1606665496/10763459528675558787/PRISH_OS_A50s_PORT_v3.zip
   ROM_NAME: OneUI
-  ZIP_NAME: OneUI-Testing
+  ZIP_NAME: OneUI-Testing2
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
