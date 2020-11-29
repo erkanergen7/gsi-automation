@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://r4---sn-4g5e6nes.gvt1.com/packages/data/ota-api/vsmart_jacaranda_jacarandaopen/12198da2140b32aa979058845de3c41f4be9e730.zip?mh=9O&mvi=4&pl=21&cm2rm=sn-u0g3uxax3-5tue7z,sn-nv4ly7z&req_id=f94da1f562ea57de&ipbypass=yes&redirect_counter=2&cms_redirect=yes&mip=95.12.112.160&mm=34&mn=sn-4g5e6nes&ms=ltu&mt=1606587875&mv=m
-  ROM_NAME: VOS
-  ZIP_NAME: VOS-ARIS
+  ROM_URL: https://pixysos.com/get/Z0FBQUFBQmZ3X0p1VDdWdFpJRVk4NkZ2aXE0ODBDM3JMaFdGVEh4aEx4WVNGNWpvZkdJaFZwVDBULVVSR0l6U0ZDS2RoMG9hSHhxTVRMMlRhVF9DMk1Nb013MElpRVdRMlZpY1lobVZGSWNueFJ3OXJ6TzlJamVPT040Z1RUWkZQeVRXcjh2UFlFVjhkODZrZkN6VDZfTUppazQ4ZWhudnNRPT0=
+  ROM_NAME: Generic:PixyOS-V4-0-2
+  ZIP_NAME: PixyOS-V4-0-2
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Vos
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/PixyOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
