@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://pixysos.com/get/Z0FBQUFBQmZ3X0p1VDdWdFpJRVk4NkZ2aXE0ODBDM3JMaFdGVEh4aEx4WVNGNWpvZkdJaFZwVDBULVVSR0l6U0ZDS2RoMG9hSHhxTVRMMlRhVF9DMk1Nb013MElpRVdRMlZpY1lobVZGSWNueFJ3OXJ6TzlJamVPT040Z1RUWkZQeVRXcjh2UFlFVjhkODZrZkN6VDZfTUppazQ4ZWhudnNRPT0=
-  ROM_NAME: Generic:PixyOS-V4-0-2
-  ZIP_NAME: PixyOS-V4-0-2
+  ROM_URL: https://deac-riga.dl.sourceforge.net/project/teamphenom/lavender/weekly/XMORZ_MIUI12_lavender_20.11.25.zip?viasf=1
+  ROM_NAME: MIUI:XMORZ-20-11-25
+  ZIP_NAME: XMORZ-20-11-25
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/PixyOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
