@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l10041/official/L10041_ROW_SECURE_USER_M6750m_Q_DRV_11.5.263_ST_200824_SVC_V1.zip
-  ROM_NAME: ZUI:ZUI-TEST
-  ZIP_NAME: ZUI-TEST
+  ROM_URL: https://mgb1.androidfilehost.com/dl/wMXOorMukPezylr4CjywOw/1606771512/8889791610682902975/A707FDDU3BTG4_A707FODM3BTG4_INS.zip
+  ROM_NAME: OneUI:TEST-BUILD
+  ZIP_NAME: OneUI-TESTROM
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/ZUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
