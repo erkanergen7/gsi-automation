@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mde1.androidfilehost.com/dl/4H4TQDlrv_km5Sk4G14iOA/1606764822/10763459528675592049/MMX_2.2.0_lavender_20.11.25_v12-10.zip
-  ROM_NAME: MIUI:MIX-20-11-25
-  ZIP_NAME: MIX-20-11-25
+  ROM_URL: https://mirrors.lolinet.com/firmware/lenovo/l79031/L79031_CN_SECURE_USER_Q00114.1a_Q_ROW_12.0.017_ST_201004_qpst.zip
+  ROM_NAME: ZUI:LEGIONPRO
+  ZIP_NAME: ZUI-LEGIONPRO
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/ZUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
