@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://deac-riga.dl.sourceforge.net/project/teamphenom/lavender/weekly/XMORZ_MIUI12_lavender_20.11.25.zip?viasf=1
-  ROM_NAME: MIUI:XMORZ-20-11-25
-  ZIP_NAME: XMORZ-20-11-25
+  ROM_URL: https://mde1.androidfilehost.com/dl/4H4TQDlrv_km5Sk4G14iOA/1606764822/10763459528675592049/MMX_2.2.0_lavender_20.11.25_v12-10.zip
+  ROM_NAME: MIUI:MIX-20-11-25
+  ZIP_NAME: MIX-20-11-25
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
