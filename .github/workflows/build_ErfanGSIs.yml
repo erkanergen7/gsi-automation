@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mgb1.androidfilehost.com/dl/wMXOorMukPezylr4CjywOw/1606771512/8889791610682902975/A707FDDU3BTG4_A707FODM3BTG4_INS.zip
-  ROM_NAME: OneUI:TEST-BUILD
-  ZIP_NAME: OneUI-TESTROM
+  ROM_URL: https://bigota.d.miui.com/V12.2.1.0.RJKMIXM/miui_LMIGlobal_V12.2.1.0.RJKMIXM_35857b638b_11.0.zip
+  ROM_NAME: MIUI:MIUI-POCOF2PRO
+  ZIP_NAME: MIUI-POCOF2PRO
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OneUI
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
