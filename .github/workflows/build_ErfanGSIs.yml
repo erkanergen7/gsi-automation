@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://dl.project404.co/0:/Raphael/project-404-4.0-20201128-185742-RIPPA-raphael.zip
-  ROM_NAME: Generic:Project404-Android11
-  ZIP_NAME: Project404 - Android11
+  ROM_URL: https://netix.dl.sourceforge.net/project/crdroid/whyred/7.x/crDroidAndroid-11.0-20201126-whyred-v7.0.zip?viasf=1
+  ROM_NAME: Generic:crDroid-v7.0
+  ZIP_NAME: crDroid-v7.0
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/Project404
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/crDroid
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
