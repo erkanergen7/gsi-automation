@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://netix.dl.sourceforge.net/project/eliteroms/EliteRomPlus-12.0.4.0-v3-X3.zip?viasf=1
-  ROM_NAME: MIUI:EliteRomPlus-12-0-4-0-v3-Gaming
-  ZIP_NAME: EliteRomPlus-12-0-4-0-v3-Gaming
+  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDY5OTM3MzAiLCJ1IjoiNTkzNjQwIiwibHQiOiJkb3dubG9hZCIsInMiOiIzZmVlMDM0MjliMDdlZDY5YWE0YWJiMjViNjg2NjIxOTRkMmFjYmJkZGRlOGRiMDgwYjQ1NjI1ODgzMmQ1M2YyYzdhZjFmZWZkNzAwYzFkMDYyZWUxYzNhNjc4YjY5NDgxYzNkMWYxMzkzNWMxMGVlNmUyMzczYTAxNjYzN2YzZiIsInQiOjE2MDcwMTIyMjUsInN0ZnAiOiIwNTIwZmRlY2UzMTY0ZmQwYTI2YzY2MzkwZGYxOWVkMyIsInN0aXAiOiI4MS4yMTQuMTA3LjEwNCJ9.jdgo-H6ui_4wKbjvHM85d-7j6DWiT4OaMThGFMS1iT0/OOS%20OP7T%20Ricemod.zip
+  ROM_NAME: OxygenOS:OxygenOS-RiceMOD
+  ZIP_NAME: OxygenOS-RiceMOD
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
