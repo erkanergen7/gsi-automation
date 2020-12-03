@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mde1.androidfilehost.com/dl/iqqI7WmKV9Eu5GfKo23upQ/1607095451/10763459528675595761/PixelExperience_ginkgo-11.0-20201203-0418-BETA-TeamPixel.zip
-  ROM_NAME: Generic:PixelExperience-11
-  ZIP_NAME: PixelExperience-11
+  ROM_URL: https://mirror.rk585.wtf/OnePlus7T_McLaren_OB18_X01BD_2-12-2020.zip
+  ROM_NAME: OxygenOS:OxygenOS-McLaren
+  ZIP_NAME: OxygenOS-McLaren
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/PixelExperience
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
