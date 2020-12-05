@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://mirror.rk585.wtf/OnePlus7T_McLaren_OB18_X01BD_2-12-2020.zip
-  ROM_NAME: OxygenOS:OxygenOS-McLaren
-  ZIP_NAME: OxygenOS-McLaren
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus6TOxygen_41_OTA_064_all_2002191415_7bc878840a7646d5.zip
+  ROM_NAME: OxygenOS:OxygenOS-6T
+  ZIP_NAME: OxygenOS-6T
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
