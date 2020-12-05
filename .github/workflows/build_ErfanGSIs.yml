@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://downloads.indianets.workers.dev/evelyn/OOS-Raphael-Eclipse-System.zip
-  ROM_NAME: OxygenOS:OxygenOS-Cyberpunk
-  ZIP_NAME: OxygenOS-Cyberpunk
+  ROM_URL: https://netix.dl.sourceforge.net/project/premios/raphael/PremiOS_Raphael_v20.11.25_A10.zip
+  ROM_NAME: MIUI:PremiOS_Raphael_v20.11.25
+  ZIP_NAME: PremiOS_Raphael_v20.11.25
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/MIUI-MODS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
