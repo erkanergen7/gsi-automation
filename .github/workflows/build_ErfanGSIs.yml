@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7TProOxygen_14.E.21_OTA_021_all_2011052319_60e4bb52eba847fc.zip
-  ROM_NAME: OxygenOS:OxygenOS-Tests
-  ZIP_NAME: OxygenOS-Tests
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2001EU_11_OTA_0440_all_b0wz0R9VY43F.ozip
+  ROM_NAME: RealmeUI
+  ZIP_NAME: RealmeUI-1
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/RealmeUI
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
