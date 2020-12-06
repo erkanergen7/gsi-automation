@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus7ProOxygen/OnePlus7ProOxygen_21.P.31_GLO_031_2011052258/OnePlus7ProOxygen_21.P.31_OTA_031_all_2011052258_0a31cd8d82f0.zip
-  ROM_NAME: HydrogenOS
-  ZIP_NAME: HydrogenOS-7Pro
+  ROM_URL: https://downloads.indianets.workers.dev/evelyn/OOS-Raphael-Eclipse-System.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: OxygenOS-Cyberpunk
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/HydrogenOS
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/OxygenOS
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
