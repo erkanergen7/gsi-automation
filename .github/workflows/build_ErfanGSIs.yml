@@ -8,7 +8,7 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://oxygenos.oneplus.net/OnePlus7ProOxygen_13.W.45_OTA_045_all_2010191035_fde4ca8ebd8f4cfc.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus7Oxygen_14.P.31_OTA_031_all_2011052313_afdc9.zip
   ROM_NAME: OxygenOS
   ZIP_NAME: OxygenOS-OB19
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
