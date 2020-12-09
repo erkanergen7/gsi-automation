@@ -9,8 +9,8 @@ on:
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://m.mark41stark.workers.dev//AospExtended-v8.0-lavender-UNOFFICIAL-20201205-0322.zip
-  ROM_NAME: Generic:AospExtended-8-0-(09-12-20)
-  ZIP_NAME: AospExtended-8-0-(09-12-20)
+  ROM_NAME: Generic:AospExtended
+  ZIP_NAME: AospExtended-8-0
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/AospExtended
