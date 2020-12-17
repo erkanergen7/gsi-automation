@@ -8,12 +8,12 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://m.mark41stark.workers.dev//AospExtended-v8.0-lavender-UNOFFICIAL-20201205-0322.zip
-  ROM_NAME: Generic:AospExtended
-  ZIP_NAME: AospExtended-8-0
+  ROM_URL: https://jztkft.dl.sourceforge.net/project/bootleggers-begonia/BootleggersROM-Rimbon4begonia.5.7-Alpha-Testing-20201201-061454.zip
+  ROM_NAME: Generic:Bootleggers_5-7-Alpha-Android11
+  ZIP_NAME: Bootleggers_5-7-Alpha-Android11
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
-  SFDIRA1: cd /home/pfs/project/berkay-gsi/AospExtended
+  SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
 
