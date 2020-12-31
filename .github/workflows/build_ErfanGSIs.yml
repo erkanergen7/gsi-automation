@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://jztkft.dl.sourceforge.net/project/bootleggers-begonia/BootleggersROM-Rimbon4begonia.5.7-Alpha-Testing-20201201-061454.zip
-  ROM_NAME: Generic:Bootleggers_5-7-Alpha-Android11
-  ZIP_NAME: Bootleggers_5-7-Alpha-Android11
+  ROM_URL: https://hell.godseye.workers.dev/Razer_21.01.01_mido_akib.zip?
+  ROM_NAME: MIUI:Razeredition01.01.2021
+  ZIP_NAME: Razeredition01.01.2021
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
